@@ -10,3 +10,8 @@ const paragraph2 = document.createElement("p");
 paragraph2.textContent = "Esto es lo primero que has escrito.";
 document.body.appendChild(paragraph2);
 });
+document.addEventListener("DOMContentLoaded", function() {
+    const newParagraph = document.createElement("p");
+    newParagraph.textContent = "Esto es un nuevo parrafo";
+    document.body.appendChild(newParagraph);
+});
